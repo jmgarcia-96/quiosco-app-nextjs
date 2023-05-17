@@ -26,7 +26,7 @@ export default function Layout({ children, pagina }) {
   return (
     <>
       <Head>
-        <title>Café - {pagina}</title>
+        <title>Café {pagina ?? `- ${pagina}`}</title>
         <meta name="description" content="Quiosco Cafetería" />
       </Head>
 
